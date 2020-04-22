@@ -23,7 +23,9 @@ a {
     text-align: left;
     
     align-items: center;
- 
+    -webkit-box-shadow: 0px 6px 5px 0px rgba(238, 173, 66, 0.55);
+    -moz-box-shadow:    0px 6px 5px 0px rgba(238, 173, 66, 0.55);
+    box-shadow:         0px 6px 5px 0px rgba(238, 173, 66, 0.55);
     
   }
 
@@ -127,7 +129,9 @@ a {
         width: 1279px;
         height: 182px;
         background-color: #ffffcc;
-        
+        -webkit-box-shadow: 0px 3px 20px 0px rgba(50, 50, 50, 0.75);
+        -moz-box-shadow:    0px 3px 20px 0px rgba(50, 50, 50, 0.75);
+        box-shadow:         0px 3px 20px 0px rgba(50, 50, 50, 0.75);
       
 
 }
@@ -189,6 +193,9 @@ a {
     width: 384px;
     height: 682px;
     background-image: url(icon_pack/webpage_card.png);
+    -webkit-box-shadow: 1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         1px 10px 5px 0px rgba(50, 50, 50, 0.75);
 }
 .ruler_between_webpage_card_and_computer_graphic_card {
     width: 37px;
@@ -198,6 +205,9 @@ a {
     width: 384px;
     height: 682px;
     background-image: url(icon_pack/Computer_graphic_card.png);
+    -webkit-box-shadow: 1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         1px 10px 5px 0px rgba(50, 50, 50, 0.75);
 }
 .ruler_between_computer_graphic_card_and_fine_arts_card {
     width: 37px;
@@ -207,6 +217,9 @@ a {
     width: 384px;
     height: 682px;
     background-image: url(icon_pack/fine_arts_card.png);
+    -webkit-box-shadow: 1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         1px 10px 5px 0px rgba(50, 50, 50, 0.75);
 }
 .ruler_between_fine_arts_card_and_right_side {
     width: 37px;
@@ -394,11 +407,111 @@ a {
 
 
 
+/* <<<<< there starts computer graphics pages */
+
+.first_card_cg {
+    width: 542.7px;
+    height: 538.5px;
+    background-image: url(icon_pack/Computer_graphic_content/work01mouse.png);
+    -webkit-box-shadow: 1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+
+}
+
+.second_card_cg {
+    width: 542.7px;
+    height: 538.5px;
+    background-image: url(icon_pack/Computer_graphic_content/work02mouse.png);
+    -webkit-box-shadow: 1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+
+.ruler_from_leftside_to_text_container_of_describtion_cg {
+    width:420px;
+    height: 46px;
+}
+
+
+ /* There ends computer graphic page >>>>> */
+
+
+ /* <<<<< there starts fine arts page */
 
 
 
+.first_card_fine {
+    width: 542.7px;
+    height: 538.5px;
+    background-image: url(icon_pack/Fine_arts_works_page/Firts.png);
+    -webkit-box-shadow: 1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+
+}
+
+.second_card_fine {
+    width: 542.7px;
+    height: 538.5px;
+    background-image: url(icon_pack/Fine_arts_works_page/Second.png);
+    -webkit-box-shadow: 1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+
+}
 
 
+.first_block_with_text_describtion_fine {
+    display: flex;
+    
+    width: 1279px;
+    height:40px;
+  
+        font-family: Akrobat;
+        font-size: 25px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000000;
+}
 
 
+.ruler_from_slider_to_end {
+    width: 1279px;
+    height: 50px;
+ 
+}
+
+.big_middle_center_fine {
+    height: 729px;
+    width: 1279px;
+   
+    
+}
+
+.slider_gallery_fine {
+    width: 963px;
+    height: 700px;
+   
+    display: flex;
+   
+    align-items: center;
+}
+
+.block_with_slider_fine {
+    display: flex;
+
+    width: 1279px;
+    height: 700px;
+   
+
+}
+
+
+ /* there ends fine arts page >>>>> */
 
