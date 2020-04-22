@@ -316,8 +316,81 @@ a {
 
 /* there ends styles of page webdesign >>>>> */
 
+/* <<<<< there starts opened_web_design_page styles */
 
 
+
+.big_middle_center {
+    height: 684px;
+    width: 1279px;
+   
+    
+}
+
+.first_block_with_text_describtion {
+    display: flex;
+    
+    width: 1279px;
+    height:46px;
+  
+        font-family: Akrobat;
+        font-size: 25px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000000;
+      
+
+
+}
+.ruler_from_leftside_to_text_container_of_describtion {
+    width:337px;
+    height: 46px;
+
+}
+.text_block_of_describtion {
+    display: flex;
+    align-items: center;
+
+}
+
+.ruler_from_text_to_right_side {
+    width: 306px;
+    height: 46px;
+ 
+}
+.block_with_slider {
+    display: flex;
+
+    width: 1279px;
+    height: 594px;
+   
+
+}
+.ruler_from_left_to_gallery_block {
+    width: 172px;
+    height: 594px;
+    
+}
+
+.slider_gallery {
+    width: 963px;
+   
+    display: flex;
+   
+    align-items: center;
+}
+
+.ruler_from_slider_to_right_end {
+    width: 164px;
+    height: 594px;
+
+}
+
+/* there ends opened_web_design_page styles >>>>> */
 
 
 
