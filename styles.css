@@ -1,0 +1,331 @@
+/* <<<<< there started styles for main page and some general none changing */
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.upperbox  {
+    display: flex;
+    width: 1279px;
+    height: 157px;
+    background-color: #ffffcc;
+    justify-content: space-between;
+    font-family: Akrobat;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    
+    align-items: center;
+ 
+    
+  }
+
+  .logotype  {
+    width: 247px;
+    height: 114px;
+    background-image: url(icon_pack/Daniillogo.png);    
+
+  }
+  .navigationblok {
+      display: flex;
+      width: 628px ;
+      height:158px;
+      align-items: center;
+      justify-content: space-around;
+     
+      
+  }
+
+  /* <<<<<  Middle blocks */
+
+  .container_for_portoliotextmain_and_artofperiodblock {
+      display: flex;
+  }
+
+  .portoliotextmain  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 703px;
+    height: 692px;
+    background-color: #99ff99;
+    align-items: center;
+
+
+
+  }
+  .site_portfolio {
+    font-family: PTSans;
+    font-size: 90px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+
+  }
+
+
+
+
+  .artofperiodblock  {
+    width: 584px;
+    height: 691px;
+    background-color: #ffffff;
+    background-image: url(icon_pack/Art_of_period.png);  
+  }
+  .welcome {
+    font-family: Pacifico;
+    font-size: 72px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    
+
+  }
+
+  
+
+
+
+
+  /* Middle blocks  >>>>> */
+
+
+/* <<<<< downplace started there */
+
+.ruler_for_container_social_with_rulers {
+    width: 1279px;
+    height: 91px;
+    display: flex;
+}
+
+.container_social_with_rulers {
+    display: flex;
+    width: 1279px;
+    height: 91px;
+}
+
+
+.downplace { 
+        display: flex; 
+        flex-direction: column;
+        justify-content: space-between;
+        width: 1279px;
+        height: 182px;
+        background-color: #ffffcc;
+        
+      
+
+}
+
+/* .container_for_social {
+        width: 214px;
+        height: 91px;
+} */
+
+
+
+
+.ruler_for_space_insta {
+    display: flex;
+    width: 1040px;
+}
+.ruler_between_instagram_icon_and_vkontakte_icon {
+    display: flex;
+    width: 51px;
+}
+.ruler_after_icons_to_end {
+    display: flex;
+    width: 53px;
+}
+
+
+.instagramm {
+        display: flex;
+        background-image: url(icon_pack/vko.png);
+        width: 68px ;
+        height: 68px;
+}
+.vkontakte {
+        display: flex;
+        background-image: url(icon_pack/insta.png);
+        width: 68px ;
+        height: 68px;
+}
+/*  downplace ended upper >>>>> */
+
+/* there ended styles for main page >>>>>*/
+
+/*  <<<<< there starts  styles for page works */
+
+/* <<<<< there starts middle container for page cards */
+
+.big_container_of_styles_art {
+    display: flex;
+    width: 1279px;
+    height:684.60px;
+}
+
+.ruler_between_left_and_to_webpage_card {
+    width: 30px;
+    height: 684.60px;
+}
+.webpage_card {
+
+    width: 384px;
+    height: 682px;
+    background-image: url(icon_pack/webpage_card.png);
+}
+.ruler_between_webpage_card_and_computer_graphic_card {
+    width: 37px;
+    height: 684.60px;
+}
+.computer_graphic_card {
+    width: 384px;
+    height: 682px;
+    background-image: url(icon_pack/Computer_graphic_card.png);
+}
+.ruler_between_computer_graphic_card_and_fine_arts_card {
+    width: 37px;
+    height: 684.60px;
+}
+.fine_arts_card {
+    width: 384px;
+    height: 682px;
+    background-image: url(icon_pack/fine_arts_card.png);
+}
+.ruler_between_fine_arts_card_and_right_side {
+    width: 37px;
+    height: 684.60px;
+}
+
+/* there ends middle container for page cards >>>>> */
+
+
+/* there ends styles of page works >>>>> */
+
+/* <<<<< there starts styles of page webdesign */
+
+.middle_container {
+    display: flex;
+    flex-direction: column;
+    width: 1279px;
+    height: 100%;
+}
+.ruler_between_up_and_cards {
+    width: 1279px;
+    height: 34px;
+}
+.middle_cards_box {
+    display: flex;
+    width:1279px;
+    height: 553.39px;
+}
+
+.ruler_from_left_side_to_first_card {
+    width:68px;
+    height:538.5px;
+}
+.first_card {
+    width: 542.7px;
+    height: 538.5px;
+    background-image: url(icon_pack/card_with_web_design_hoztovay.png);
+    -webkit-box-shadow: 1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+}
+.ruler_between_first_and_second_card {
+    width:64.3px;
+    height:538.5px;
+}
+
+.second_card {
+    width: 542.7px;
+    height: 538.5px;
+    background-color: white;
+    -webkit-box-shadow: 1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+}
+.ruler_between_second_card_to_right_side {
+    width: 89px;
+    height: 538.5px;
+}
+
+
+.describtion_container {
+    display: flex;
+    width: 1279px;
+    height:96px;
+}
+
+.ruler_between_leftside_and_first_text_container {
+    width: 84px;
+    height: 96px;
+}
+.first_text_container {
+    
+    width: 505px;
+    height: 96px;
+    font-family: Akrobat;
+    font-size: 27px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+      
+}
+.ruler_between_first_text_container_and_second_text_container {
+    width: 102px;
+    height: 96px;
+}
+.second_text_container {
+    width: 505px;
+    height: 96px;
+    font-family: Akrobat;
+    font-size: 27px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+   
+}
+
+
+
+
+/* there ends styles of page webdesign >>>>> */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
