@@ -1,5 +1,18 @@
 /* <<<<< there started styles for main page and some general none changing */
 
+ @media (max-width: 1600px) { 
+    html, body{
+        margin: 0;
+        padding: 0;
+        font-family: Arial;
+        min-width: 320px;
+    }
+	
+	
+ }
+
+
+
 .big_containerforall {
     width: 1279px;
     height:1046px;
@@ -117,16 +130,14 @@ a {
 
 /* <<<<< downplace started there */
 
-.ruler_for_container_social_with_rulers {
-    width: 1279px;
-    height: 91px;
-    display: flex;
-}
+
 
 .container_social_with_rulers {
     display: flex;
     width: 1279px;
     height: 91px;
+    flex-direction:row-reverse;
+    padding:94px 0 0 0;
 }
 
 
@@ -152,31 +163,27 @@ a {
 
 
 
-.ruler_for_space_insta {
-    display: flex;
-    width: 1040px;
-}
-.ruler_between_instagram_icon_and_vkontakte_icon {
-    display: flex;
-    width: 51px;
-}
-.ruler_after_icons_to_end {
-    display: flex;
-    width: 53px;
-}
 
 
 .instagramm {
         display: flex;
-        background-image: url(icon_pack/vko.png);
-        width: 68px ;
-        height: 68px;
-}
-.vkontakte {
-        display: flex;
         background-image: url(icon_pack/insta.png);
         width: 68px ;
         height: 68px;
+        padding: 0 50px 0 0;
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-position:center;
+}
+.vkontakte {
+        display: flex;
+        background-image: url(icon_pack/vko.png);
+        width: 68px ;
+        height: 68px;
+        padding: 0 50px 0 0;
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-position:center;
 }
 /*  downplace ended upper >>>>> */
 
@@ -204,11 +211,12 @@ a {
     -webkit-box-shadow: 1px 10px 5px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow:    1px 10px 5px 0px rgba(50, 50, 50, 0.75);
     box-shadow:         1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    padding: 0 0 0 32px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center;
 }
-.ruler_between_webpage_card_and_computer_graphic_card {
-    width: 37px;
-    height: 684.60px;
-}
+
 .computer_graphic_card {
     width: 384px;
     height: 682px;
@@ -216,11 +224,12 @@ a {
     -webkit-box-shadow: 1px 10px 5px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow:    1px 10px 5px 0px rgba(50, 50, 50, 0.75);
     box-shadow:         1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    padding: 0 37px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center;
 }
-.ruler_between_computer_graphic_card_and_fine_arts_card {
-    width: 37px;
-    height: 684.60px;
-}
+
 .fine_arts_card {
     width: 384px;
     height: 682px;
@@ -228,10 +237,7 @@ a {
     -webkit-box-shadow: 1px 10px 5px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow:    1px 10px 5px 0px rgba(50, 50, 50, 0.75);
     box-shadow:         1px 10px 5px 0px rgba(50, 50, 50, 0.75);
-}
-.ruler_between_fine_arts_card_and_right_side {
-    width: 37px;
-    height: 684.60px;
+
 }
 
 /* there ends middle container for page cards >>>>> */
@@ -245,22 +251,19 @@ a {
     display: flex;
     flex-direction: column;
     width: 1279px;
-    height: 100%;
-}
-.ruler_between_up_and_cards {
-    width: 1279px;
-    height: 34px;
-}
-.middle_cards_box {
-    display: flex;
-    width:1279px;
-    height: 553.39px;
+    height: 750px;
+
 }
 
-.ruler_from_left_side_to_first_card {
-    width:68px;
-    height:538.5px;
+.middle_cards_box {
+    display: flex;
+    width:1183px;
+    height: 553.39px;
+	
+	   padding:50px 
 }
+
+
 .first_card {
     width: 542.7px;
     height: 538.5px;
@@ -269,10 +272,7 @@ a {
     -moz-box-shadow:    1px 10px 5px 0px rgba(50, 50, 50, 0.75);
     box-shadow:         1px 10px 5px 0px rgba(50, 50, 50, 0.75);
 }
-.ruler_between_first_and_second_card {
-    width:64.3px;
-    height:538.5px;
-}
+
 
 .second_card {
     width: 542.7px;
@@ -281,10 +281,10 @@ a {
     -webkit-box-shadow: 1px 10px 5px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow:    1px 10px 5px 0px rgba(50, 50, 50, 0.75);
     box-shadow:         1px 10px 5px 0px rgba(50, 50, 50, 0.75);
-}
-.ruler_between_second_card_to_right_side {
-    width: 89px;
-    height: 538.5px;
+	   padding:0 50px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center;
 }
 
 
@@ -292,12 +292,10 @@ a {
     display: flex;
     width: 1279px;
     height:96px;
+	
 }
 
-.ruler_between_leftside_and_first_text_container {
-    width: 84px;
-    height: 96px;
-}
+
 .first_text_container {
     
     width: 505px;
@@ -311,12 +309,11 @@ a {
     letter-spacing: normal;
     text-align: left;
     color: #000000;
+	padding-left:100px;
+	
       
 }
-.ruler_between_first_text_container_and_second_text_container {
-    width: 102px;
-    height: 96px;
-}
+
 .second_text_container {
     width: 505px;
     height: 96px;
@@ -329,6 +326,7 @@ a {
     letter-spacing: normal;
     text-align: left;
     color: #000000;
+	padding-left:200px;
    
 }
 
@@ -367,35 +365,24 @@ a {
 
 
 }
-.ruler_from_leftside_to_text_container_of_describtion {
-    width:337px;
-    height: 46px;
 
-}
 .text_block_of_describtion {
+	padding-left:350px;
     display: flex;
     align-items: center;
 
 }
 
-.ruler_from_text_to_right_side {
-    width: 306px;
-    height: 46px;
- 
-}
+
 .block_with_slider {
     display: flex;
-
+    padding-left:120px;
     width: 1279px;
     height: 594px;
    
 
 }
-.ruler_from_left_to_gallery_block {
-    width: 172px;
-    height: 594px;
-    
-}
+
 
 .slider_gallery {
     width: 963px;
@@ -405,11 +392,7 @@ a {
     align-items: center;
 }
 
-.ruler_from_slider_to_right_end {
-    width: 164px;
-    height: 594px;
 
-}
 
 /* there ends opened_web_design_page styles >>>>> */
 
@@ -418,29 +401,53 @@ a {
 /* <<<<< there starts computer graphics pages */
 
 .first_card_cg {
+    
     width: 542.7px;
     height: 538.5px;
     background-image: url(icon_pack/Computer_graphic_content/work01mouse.png);
     -webkit-box-shadow: 1px 10px 5px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow:    1px 10px 5px 0px rgba(50, 50, 50, 0.75);
     box-shadow:         1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center;
+
 
 }
 
 .second_card_cg {
+   
     width: 542.7px;
     height: 538.5px;
     background-image: url(icon_pack/Computer_graphic_content/work02mouse.png);
     -webkit-box-shadow: 1px 10px 5px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow:    1px 10px 5px 0px rgba(50, 50, 50, 0.75);
     box-shadow:         1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    padding:0 50px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center;
 }
 
 
-.ruler_from_leftside_to_text_container_of_describtion_cg {
-    width:420px;
-    height: 46px;
+/* .middle_cards_box {
+width: 1279px;
+height: 689px;
+display: flex;
+padding-top:68px;
+padding-left:80px;
+
+} */
+
+.middle_container_computer_graphic_main {
+    display: flex;
+    width: 1279px;
+    height: 689px;
+    padding:50px 
 }
+
+
 
 
  /* There ends computer graphic page >>>>> */
@@ -449,6 +456,20 @@ a {
  /* <<<<< there starts fine arts page */
 
 
+.middle_container_fine {
+	  display: flex;
+    width: 1279px;
+    height: 600px;
+    padding:50px 
+}
+
+.middle_cards_box_fine {
+	 display: flex;
+    width: 1279px;
+    height: 600px;
+    padding:50px 
+	background: red;
+}
 
 .first_card_fine {
     width: 542.7px;
@@ -467,6 +488,10 @@ a {
     -webkit-box-shadow: 1px 10px 5px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow:    1px 10px 5px 0px rgba(50, 50, 50, 0.75);
     box-shadow:         1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+	   padding:0 50px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center;
 
 }
 
@@ -496,8 +521,9 @@ a {
 }
 
 .big_middle_center_fine {
-    height: 729px;
+    height: 800px;
     width: 1279px;
+	
    
     
 }
@@ -512,10 +538,10 @@ a {
 }
 
 .block_with_slider_fine {
-    display: flex;
-
+   display: flex;
+    padding-left:120px;
     width: 1279px;
-    height: 700px;
+    height: 594px;
    
 
 }
@@ -572,39 +598,30 @@ a {
 
 
 .big_middle_middle_contacts {
-    width: 1279px;
-    height: 689px;
+    padding-top:160px;
+    padding-left: 50px;
+    width: 1235px;
+    height: 600px;
+	
 
 
 }
 
-.ruler_from_to_middle_block_of_contacts {
-    width: 1279px;
-    height: 127px;
-  
-}
+
 
 .block_for_phone_folder {
     width: 667.57px;
     height: 434.91px;
 
 }
-.ruler_from_up_folder_to_phone_folder {
-    width: 667.57px;
-    height: 43.63px;
-  
-}
+
 .middle_line_of_phone_folder_block {
     display: flex;
     width: 667.57px;
     height: 342px;
   
 }
-.ruler_from_right_to_middle_phone_block {
-    width: 157px;
-    height: 342px;
-   
-}
+
 
 .phone_image {
     width: 341px;
@@ -708,3 +725,17 @@ a {
 
 
 /* there ends stlyes of contacts page */
+
+
+
+
+@media (max-width: 1640px) { 
+ .upperbox {
+	width:1600px;
+ }
+.downplace {
+	width:1600px;
+}
+}
+
+
